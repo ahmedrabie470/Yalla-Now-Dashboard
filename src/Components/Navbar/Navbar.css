@@ -1,0 +1,80 @@
+/* Navbar.css */
+.navbar-custom {
+  background-color: #ffffff;
+  /* z-index: 1100; */
+  /* width: 83.2%; */
+}
+
+/* Sidebar.css */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Initially hide the sidebar off-screen */
+  height: 100%;
+  width: 190px;
+  background-color: #B20404;
+  transition: left 0.3s ease;
+  z-index: 1000;
+  padding-top: 60px;
+}
+
+.sidebar.open {
+  left: 0; /* Show the sidebar */
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align toggle icon to the right */
+  padding: 10px 15px;
+  background-color: #B20404;
+  color: white;
+}
+
+.sidebar-toggler {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+.sidebar-toggler:focus {
+  outline: none;
+}
+
+.sidebar-nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar .nav-link {
+  color: white !important;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #960202;
+}
+
+/* Adjust content to the right */
+.main-content {
+  margin-left: 0; /* Initially no margin */
+  transition: margin-left 0.3s ease; /* Smooth transition */
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    margin-left: 250px; /* Adjust to match sidebar width */
+  }
+}
+.clickable-toggle{
+  color: #202224;
+  margin-left:160px ;
+}
+
+
+.nav-link.active {
+  background-color: #faf1f1bc  ;
+}

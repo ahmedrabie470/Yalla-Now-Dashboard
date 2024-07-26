@@ -1,0 +1,61 @@
+body{
+  background-color: #F5F6FA !important;
+}
+
+.bg-gradient-custom {
+  background: linear-gradient(180deg, rgba(67, 121, 238, 0.16) 50%, rgba(255, 255, 255, 0.176942) 100%);
+}
+.main{
+  background-color: #B20404;
+}
+.branch{
+  background-color: #F3F6F8 ;
+
+}
+.primary{
+  background-color: #FFF0C9;
+}
+.activeLink{
+  background-color: #faf1f138;
+  color: #FFFFFF;
+}
+.primary1{
+  color: #F1963A;
+}
+.primary2{
+  background-color: #EEFDF6;
+}
+.shade1{
+  background-color: #4AD991;
+  }
+.shade2{
+  background-color: #EF3826;
+}
+
+.shade3{
+  color: #4AD991;
+}
+.shade4{
+  color: #EF3826;
+}
+.shade4{
+  color: #1FA5D5;
+}
+.box{
+ background-color:  #FFFFFF ;
+}
+
+
+.secondary1{
+  background-color: #4AD991
+}
+
+.secondary2{
+  background-color: #EF3826
+}
+
+
+.solid{
+  background-color: #222B45;
+  color: #FFFFFF
+}

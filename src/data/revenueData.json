@@ -1,0 +1,62 @@
+[
+    {
+      "label": 1,
+      "revenue": 64854,
+      "cost": 32652
+    },
+    {
+      "label": 2,
+      "revenue": 54628,
+      "cost": 42393
+    },
+    {
+      "label": 3,
+      "revenue": 117238,
+      "cost": 50262
+    },
+    {
+      "label": 4,
+      "revenue": 82830,
+      "cost": 64731
+    },
+    {
+      "label": 5,
+      "revenue": 91208,
+      "cost": 41893
+    },
+    {
+      "label": 6,
+      "revenue": 103609,
+      "cost": 83809
+    },
+    {
+      "label": 7,
+      "revenue": 90974,
+      "cost": 44772
+    },
+    {
+      "label": 8,
+      "revenue": 82919,
+      "cost": 37590
+    },
+    {
+      "label": 9,
+      "revenue": 62407,
+      "cost": 43349
+    },
+    {
+      "label": 10,
+      "revenue": 82528,
+      "cost": 45324
+    },
+    {
+      "label": 11,
+      "revenue": 56979,
+      "cost": 47978
+    },
+    {
+      "label": 12,
+      "revenue": 87436,
+      "cost": 39175
+    }
+  ]
