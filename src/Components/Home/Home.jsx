@@ -46,7 +46,6 @@ const Home = () => {
       if ( err.response.status === 401) {
         setErrors("You Are Not Authorized"); // Unauthorized error handling
       } else if(err.response.status === 400){
-        console.log(err);
         setErrors("Email or Password is incorrect!");
       }
     }
@@ -165,7 +164,8 @@ const Home = () => {
                         type="submit"
                         className="btn main w-100 text-white"
                       >
-                        Login
+                        {isLoading ? <i className="fas fa-spin fa-spinner "></i>:'Login'}
+                        
                       </button>
                     </div>
                   </form>

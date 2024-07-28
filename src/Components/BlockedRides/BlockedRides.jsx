@@ -1,9 +1,6 @@
 import React, { Fragment, useEffect, useState } from "react";
 import eye from "../../Asssets/eye.png";
-import avatar from "../../Asssets/Image.png";
 import block from "../../Asssets/Block.png";
-import "./BlockedRides.css";
-import { Link } from "react-router-dom";
 import axios from "axios";
 export default function BlockedRiders() {
   // let [search, setSearch] = useState("");
